@@ -1,0 +1,8 @@
+name: airbnb_prices
+channels:
+  - conda-forge
+dependencies:
+  - python=3.14
+  - pandas=3.1
+  - matplotlib=3.11
+  - pytest=9.0

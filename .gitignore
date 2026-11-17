@@ -1,0 +1,15 @@
+# environments and secrets
+.venv/
+.env
+
+# jupyter, python and tool files
+.ipynb_checkpoints/
+__pycache__/
+.pytest_cache/
+
+# mac files
+.DS_Store
+
+# files main.py creates (anyone can recreate them)
+data/processed/*.csv
+outputs/*.png
